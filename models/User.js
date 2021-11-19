@@ -8,11 +8,11 @@ const UserSchema = new mongoose.Schema({
     },
     name:{
         type: String,
-        required: true,
+        // required: true,
     },
     fathername:{
         type: String,
-        required: true,
+        // required: true,
     },
     email: {
         type: String,
@@ -23,21 +23,23 @@ const UserSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    pan_no:{
+    panno:{
         type: String,
     },
     mob_no:{
         type: Number,
-        unique: true,
-        required: true,
+        unique: false,
     },
-    userimg:{
+    profilePic:{
         type: String,
         default: "",
     },
     state:{
         type: String,
-        required: true,
+        // required: true,
+    },
+    address:{
+        type: String
     }
 
 },{timestamp: true})

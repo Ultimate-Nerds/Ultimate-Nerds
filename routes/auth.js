@@ -16,14 +16,16 @@ router.post("/register", async (req, res) => {
       mob_no: req.body.mob_no,
       name: req.body.name,
       fathername: req.body.fathername,
-      pan_no: req.body.pan_no,
-      state: req.body.state
+      panno: req.body.panno,
+      state: req.body.state,
+      profilepic: req.body.profilepic
     });
 
     const user = await newUser.save();
     res.status(200).json(user);
   } catch (err) {
     res.status(500).json(err);
+    console.log(err);
   }
 });
 
@@ -33,7 +35,7 @@ router.post("/register", async (req, res) => {
 
 router.post("/login",async(req,res)=>{
     try{
-        const user = await User.findOne({userename: req.body.username})
+        const user = await User.findOne({username: req.body.username})
         !user && res.status(400).json("Wrong Credentials");
 
         const validate = await bcrypt.compare(req.body.password, user.password)
