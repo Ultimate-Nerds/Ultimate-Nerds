@@ -14,6 +14,9 @@
 <p>Design an E-Commerce Website for farmers under various crop categories where they can apply for investments by 
 prospective investors,who would get a  percentage of profit proportional to their investment.<p>
 
+  <b>**Presentation** : <b>
+https://docs.google.com/presentation/d/1mFCDeR-lUAvEUFDf2pfXDL-VwwkuvdCi-uYRouEiCfQ/edit?usp=sharing
+    
 **Imapct**
 - Our Project will benefit both the Farmers as well as Investors.
 - Farmers looking for prospective investors can register on our web portal and get the required investments for their expenses .
