@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(100, 245, 144);
+}
+.box1{
+    margin: 5%;
+}
+
+.orders{
+    margin-top: 3%;
+}
+
+
+.investbutton{
+    background-color: green;
+    color: white;
+}

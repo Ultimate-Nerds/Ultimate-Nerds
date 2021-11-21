@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(100, 245, 144);
+}
+.outerbox{
+    border: 1px solid black;
+    margin: 5%;
+    padding-bottom: 5%;
+    border-radius: 50px;
+    box-shadow: 8px 8px 2px 1px rgba(12, 109, 33, 0.2);
+
+}
+.title{
+    text-transform: capitalize;
+}
+
+.frow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.header{
+    padding-top: 5%;
+}
+
+.detialsofcat{
+    margin-top: 5%;
+}
+.paragraphs{
+    width: 70%;
+}
+.box{
+    display: flex;
+}
+.buybuttons{
+    margin: auto;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    gap: 5px;
+}
+.buybtn{
+    width: max-content;
+    background-color: greenyellow;
+    color: black;
+    outline: none;
+    border-radius: 5px;
+}
+.buybtn:hover,
+.buybtn .link:hover{
+    background-color: green;
+    color: white;
+}
+.buybtn .link{
+    color: black;
+    text-decoration: none;
+}
+.qty{
+    width: 50px;
+    height: 30px;
+}
