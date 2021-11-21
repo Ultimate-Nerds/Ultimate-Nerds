@@ -1,0 +1,37 @@
+.rightbar {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.userimg{
+    margin-top: 5px;
+}
+
+.userimg .uimg > img {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.home,
+.userimg,
+.help,
+.contact,
+.logout {
+  text-align: center;
+}
+.home .homeicon > i,
+.help .helpicon> i,
+.contact .contacticon> i {
+  font-size: 30px;
+  margin-top: 10px;
+  color: rgb(78, 78, 78);
+}
+
+
+.logout .logouticon > i{
+    font-size: 30px;
+    margin-bottom: 0;
+    bottom: 0;
+    margin-top: 68vh;
+    color: rgb(78, 78, 78);
+}
